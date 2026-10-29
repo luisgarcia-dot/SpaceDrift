@@ -8,9 +8,13 @@ public class MenuControl : MonoBehaviour
     {
         SceneManager.LoadScene(nomEscena);
     }
-    public static void EscenaAjustes(string nomEscena)
+    public static void EscenaAjustes()
     {
-        SceneManager.LoadScene(nomEscena);
+        SceneManager.LoadScene("EscenaAjustes");
+    }
+    public static void VolverInicio()
+    {
+        SceneManager.LoadScene("PantallaInicio");
     }
     public static void SortirAplicacio()
     {
